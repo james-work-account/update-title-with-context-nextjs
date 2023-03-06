@@ -4,7 +4,7 @@ import TitleContext from "../hooks/useTitle";
 export default function Home() {
   const { updateTitle } = useContext(TitleContext);
 
-  updateTitle("Home");
+  updateTitle("About");
 
-  return <h1>You are on the homepage</h1>;
+  return <h1>You are on the about page</h1>;
 }
